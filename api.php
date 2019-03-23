@@ -14,4 +14,5 @@ else {
         $domains .= $row['domain'] . ", ";
     }
     echo substr_replace($domains ,"",-2);
+}
 ?>
